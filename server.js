@@ -9,7 +9,8 @@ app.use(cors({
     origin: ["http://localhost:3000",
             "http://localhost:3001",
             "https://drive.google.com/file/d/",
-            "https://mantisofficialfrontend.onrender.com"]
+            "https://mantisofficialfrontend.onrender.com",
+            "https://mantisofficialfrontend.onrender.com/"]
 }));
 app.use(bodyParser.json());
 
