@@ -7,19 +7,23 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:build": "node ./build/main.js",
-    "build": "webpack --config webpack.dev.js --mode development"
+    "build": "webpack --config webpack.dev.js --mode production"
   },
   "author": "T.D Rasindu Dulshan Siriwardhana (Mantis)",
   "license": "ISC",
   "dependencies": {
     "aws4": "^1.13.0",
+    "babel": "^6.23.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "css-loader": "^7.1.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongodb": "^6.7.0",
     "mongodb-client-encryption": "^6.0.1",
     "mongoose": "^8.3.5",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.2.1",
     "snappy": "^7.2.2",
     "socks": "^2.8.3"
   },

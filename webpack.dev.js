@@ -11,7 +11,7 @@ module.exports = {
         filename: '[name].js',
         clean: true
     },
-    mode: 'development',
+    mode: 'production',
     target: 'node',
 
     module: {
