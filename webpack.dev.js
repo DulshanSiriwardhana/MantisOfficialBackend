@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        main: './server.js'
+        main: './index.js'
     },
     output: {
         path: path.join(__dirname, 'build'),
