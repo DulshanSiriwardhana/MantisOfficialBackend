@@ -15,6 +15,8 @@ app.use(cors({
             "https://drive.google.com/file/d/",
             "https://mantisofficial.vercel.app/",
             "https://mantisofficial.vercel.app",
+            "https://mantis-official-admin.vercel.app/",
+            "https://mantis-official-admin.vercel.app",
             "https://mantisofficialfrontend.onrender.com",
             "https://mantisofficialfrontend.onrender.com/",
             "https://mantisofficialadmin.onrender.com"]
